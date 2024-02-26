@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset='utf-8'>
+  <title>Rugby Referee blog - Se connecter</title>
+  <meta name='description' content='Blog sur les arbitres de rugby internationaux'>
+  <meta name='keywords' content='arbitre, rugby, blog'>
+  <meta name='author' content='YAnthony'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/bulma.css'>
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Navigation principale">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/" title="Page d'accueil">
+          <img src="../assets/logo.png" alt="Logo du site">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="banner">
+          <img class="banner" src="../assets/banner.jpg" alt="Image de connexion">
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <h1 class="title">Se connecter</h1>
+            <form method="get" action="../index.html" id="connexion">
+              <div class="field">
+                <label for="email" class="label" aria-describedby="email-desc">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" id="email" placeholder="Email" required autofocus autocomplete="username">
+                  <span class="icon is-small is-left" aria-hidden="true">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right" aria-hidden="true">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </div>
+                <small id="email-desc" class="form-text text-muted">Entrez votre adresse email.</small>
+              </div>
+              <div class="field">
+                <label for="password" class="label">Mot de passe</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="password" id="password" placeholder="Mot de passe" required autocomplete="current-password" minlength="8">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-lock" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <small class="form-text text-muted">Entrez votre mot de passe.</small>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="button is-primary" type="submit" value="submit" form="connexion">Se connecter</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Rugby Referee blog</strong> by <a class="link-active" href="https://jgthms.com">YAnthony</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
